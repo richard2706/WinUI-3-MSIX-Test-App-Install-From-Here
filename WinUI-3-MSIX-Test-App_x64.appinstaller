@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://richard2706.github.io/WinUI-3-MSIX-Test-App-Install-From-Here/WinUI-3-MSIX-Test-App_x64.appinstaller"
+	Version="1.0.2.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="460adfc3-0f7c-4e88-8abc-0117a88b6e26"
+		Version="1.0.2.0"
+		Publisher="CN=Richard Wakeham"
+		Uri="https://richard2706.github.io/WinUI-3-MSIX-Test-App-Install-From-Here/WinUI-3-MSIX-Test-App_1.0.2.0_x64_Test/WinUI-3-MSIX-Test-App_1.0.2.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://richard2706.github.io/WinUI-3-MSIX-Test-App-Install-From-Here/WinUI-3-MSIX-Test-App_1.0.2.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.6.msix"
+			Version="6000.318.2304.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
